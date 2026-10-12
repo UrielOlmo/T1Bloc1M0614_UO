@@ -3,24 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Maqueta Web — T1Bloc1M0614</title>
 
     <style>
         /* Colors de fons per a cada secció */
         header {
             background-color: #1a1a1a;   /* Negre suau */
+
+    <title>Maqueta Web — Aficions amb Imatges</title>
+
+    <style>
+        header {
+            background-color: #1a1a1a;
+
             color: white;
             padding: 20px;
             text-align: center;
         }
 
         main {
+
             background-color: #f2f2f2;   /* Gris clar */
+
+            background-color: #f2f2f2;
+
             padding: 20px;
         }
 
         footer {
+
             background-color: #333333;   /* Gris fosc */
+
+            background-color: #333333;
+
             color: white;
             text-align: center;
             padding: 10px;
@@ -31,6 +47,20 @@
             background-color: white;
             padding: 15px;
             margin: 10px 0;
+
+        .aficio {
+            background-color: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .aficio img {
+            width: 150px;
+
             border-radius: 6px;
         }
     </style>
@@ -44,11 +74,15 @@
 
     <main>
 
+
         <!-- Secció de presentació -->
+
+
         <section id="presentacio">
             <h2>Sobre mi</h2>
             <p>Hola, sóc Uriel, estudiant del Cirvianum i apassionat de la tecnologia, el disseny i el desenvolupament web. M’agrada crear projectes, aprendre llenguatges nous i millorar cada dia.</p>
         </section>
+
 
         <!-- Secció d’aficions -->
         <section id="aficions">
@@ -67,6 +101,36 @@
             <div class="aficio">
                 <h3>Programació</h3>
                 <p>Estic aprenent Java, HTML, CSS i Git. Vaig començar aquest any i practico gairebé cada dia amb exercicis i projectes.</p>
+
+        <section id="aficions">
+            <h2>Les meves aficions</h2>
+
+            <!-- Afició 1 -->
+            <div class="aficio">
+                <img src="images/benjy.jpg" alt="Gaming competitiu">
+                <div>
+                    <h3>Gaming competitiu</h3>
+                    <p>Jugo sobretot a Fortnite. Vaig començar fa anys i competeixo regularment. M’agrada millorar mecàniques, aim i estratègia.</p>
+                </div>
+            </div>
+
+            <!-- Afició 2 -->
+            <div class="aficio">
+                <img src="images/gt3.jpg" alt="Disseny i marca personal">
+                <div>
+                    <h3>Disseny i marca personal</h3>
+                    <p>Treballo en la marca UNKNWN NOIR, creant visuals, estètica formal i exclusiva, i contingut per xarxes. Ho faig cada setmana.</p>
+                </div>
+            </div>
+
+            <!-- Afició 3 -->
+            <div class="aficio">
+                <img src="images/LYR.jpg" alt="Programació">
+                <div>
+                    <h3>Programació</h3>
+                    <p>Estic aprenent Java, HTML, CSS i Git. Vaig començar aquest any i practico gairebé cada dia amb exercicis i projectes.</p>
+                </div>
+
             </div>
 
         </section>
